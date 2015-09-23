@@ -4,6 +4,7 @@ APromise.all = function(promises){};
 
 APromise.race = function(promises){
 	return Promise.resolve(promises);
+	
 };
 
 APromise.resolve = function(value){
